@@ -1,6 +1,6 @@
 
 
-# ubuntu-iso-builder-import-pacstall-mate-theme-vimix
+# ubuntu-iso-builder-import-pacstall-mate-theme-qogir
 
 
 
@@ -11,9 +11,9 @@
 | ---- | ------ |
 | [ubuntu-iso-builder-template](https://github.com/samwhelp/ubuntu-iso-builder-template) |
 | `+` |
-| [ubuntu-iso-builder-import-pacstall-mate-theme-vimix](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-vimix) |
+| [ubuntu-iso-builder-import-pacstall-mate-theme-qogir](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-qogir) |
 | `=` |
-| [ubuntu-iso-builder-include-pacstall-mate-theme-vimix](https://github.com/samwhelp/ubuntu-iso-builder-include-pacstall-mate-theme-vimix) |
+| [ubuntu-iso-builder-include-pacstall-mate-theme-qogir](https://github.com/samwhelp/ubuntu-iso-builder-include-pacstall-mate-theme-qogir) |
 
 
 
@@ -32,9 +32,9 @@
 
 | Config |
 | ------ |
-| [~/.config](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-vimix/tree/main/profile/template/asset/overlay/etc/skel/.config) |
-| [/usr/share/glib-2.0/schemas](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-vimix/tree/main/profile/template/asset/overlay/usr/share/glib-2.0/schemas) |
-| [/etc/dconf/db/distro.d](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-vimix/tree/main/profile/template/asset/overlay/etc/dconf/db/distro.d) |
+| [~/.config](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-qogir/tree/main/profile/template/asset/overlay/etc/skel/.config) |
+| [/usr/share/glib-2.0/schemas](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-qogir/tree/main/profile/template/asset/overlay/usr/share/glib-2.0/schemas) |
+| [/etc/dconf/db/distro.d](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-qogir/tree/main/profile/template/asset/overlay/etc/dconf/db/distro.d) |
 
 
 
@@ -61,17 +61,17 @@ sudo apt-get install git
 
 ### Combine
 
-> clone [ubuntu-iso-builder-import-pacstall-mate-theme-vimix](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-vimix)
+> clone [ubuntu-iso-builder-import-pacstall-mate-theme-qogir](https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-qogir)
 
 ``` sh
-git clone https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-vimix.git
+git clone https://github.com/samwhelp/ubuntu-iso-builder-import-pacstall-mate-theme-qogir.git
 ```
 
 
-> change dir to `ubuntu-iso-builder-import-pacstall-mate-theme-vimix`
+> change dir to `ubuntu-iso-builder-import-pacstall-mate-theme-qogir`
 
 ``` sh
-cd ubuntu-iso-builder-import-pacstall-mate-theme-vimix
+cd ubuntu-iso-builder-import-pacstall-mate-theme-qogir
 ```
 
 
@@ -85,10 +85,10 @@ make combine-via-git
 ### Build
 
 
-> change dir to `~/work/ubuntu-iso-builder-import-pacstall-mate-theme-vimix/iso-profile`
+> change dir to `~/work/ubuntu-iso-builder-import-pacstall-mate-theme-qogir/iso-profile`
 
 ``` sh
-cd ~/work/ubuntu-iso-builder-import-pacstall-mate-theme-vimix/iso-profile
+cd ~/work/ubuntu-iso-builder-import-pacstall-mate-theme-qogir/iso-profile
 ```
 
 
@@ -98,7 +98,7 @@ cd ~/work/ubuntu-iso-builder-import-pacstall-mate-theme-vimix/iso-profile
 make build
 ```
 
-> The resulting ISO file will be placed on `~/work/ubuntu-iso-builder-import-pacstall-mate-theme-vimix/iso-profile/dist`
+> The resulting ISO file will be placed on `~/work/ubuntu-iso-builder-import-pacstall-mate-theme-qogir/iso-profile/dist`
 
 
 
